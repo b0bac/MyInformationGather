@@ -49,7 +49,7 @@ class GUIShell:
         self.LogText = tkinter.Text(self.Windows, height=35, relief=tkinter.RAISED, width=192, bg="gray")
         self.LogText.config(state="disable")
         self.ScanButton = tkinter.Button(self.Windows, text='开始收集', bg='green', command=self.StartScan)
-        self.Banner = tkinter.Label(self.Windows, text="渗透的本质是信息收集  土拨鼠渗透测试自动化信息收集工具V1.0版本 沟通请联系微信 lab_hacker",
+        self.Banner = tkinter.Label(self.Windows, text="渗透的本质是信息收集  土拨鼠渗透测试自动化信息收集工具V1.0版本 沟通请联系邮箱 crsecscu@gmail.com",
                                     fg='red')
         self.ThreadSizeLabel = tkinter.Label(self.Windows, text="线程数:")
         self.ThreadSize = 10
